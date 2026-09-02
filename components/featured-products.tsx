@@ -1,8 +1,8 @@
 const products = [
-  { tone: "sea", title: "Sea Glass Bracelet", note: "Custom colors available" },
-  { tone: "sand", title: "Coastal Candle", note: "Seasonal scent + vessel" },
-  { tone: "shell", title: "Handmade Ornament", note: "Personalization available" },
-  { tone: "foam", title: "Giftable Soap Set", note: "Small-batch collection" },
+  { tone: "sea", title: "Sea Glass Bracelet", note: "Custom colors available", image: "" },
+  { tone: "sand", title: "Coastal Candle", note: "Seasonal scent + vessel", image: "" },
+  { tone: "shell", title: "Handmade Ornament", note: "Personalization available", image: "" },
+  { tone: "foam", title: "Giftable Soap Set", note: "Small-batch collection", image: "" },
 ]
 
 export function FeaturedProducts() {
@@ -21,7 +21,11 @@ export function FeaturedProducts() {
         {products.map((p) => (
           <article className="product-card" key={p.title}>
             <div className={`product-image ${p.tone}`}>
-              <span>your product photo</span>
+              {p.image ? (
+                <img src={p.image || "/placeholder.svg"} alt={p.title} />
+              ) : (
+                <span>your product photo</span>
+              )}
             </div>
             <div className="product-copy">
               <div>
