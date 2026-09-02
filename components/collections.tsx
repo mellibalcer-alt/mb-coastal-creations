@@ -43,7 +43,7 @@ export function Collections() {
       <div className="section-heading centered">
         <p className="eyebrow">browse by collection</p>
         <h2>A little bit of everything I love to make.</h2>
-        <p>No two drops have to look the same — that&apos;s part of the fun.</p>
+        <p>Everything won't be EXACTLY the same, since everything is made by hand</p>
       </div>
       <div className="collection-grid">
         {collections.map((c) => (

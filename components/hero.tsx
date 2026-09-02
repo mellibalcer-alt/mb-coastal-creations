@@ -31,7 +31,7 @@ export function Hero() {
           <div className="mini-wave wave-a" />
           <div className="mini-wave wave-b" />
           <p>made by hand</p>
-          <strong>for sunny days &amp; thoughtful gifts</strong>
+          <strong>All requests can be accommodated! </strong>
         </div>
         <div className="tape" />
         <div className="scribble">♡</div>
