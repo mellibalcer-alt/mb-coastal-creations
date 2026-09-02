@@ -1,6 +1,6 @@
 const products = [
   { tone: "sea", title: "Sea Glass Bracelet", note: "Custom colors available", image: "" },
-  { tone: "sand", title: "Coastal Candle", note: "Seasonal scent + vessel", image: "" },
+  { tone: "sand", title: "Coastal Candle", note: "Seasonal scent + vessel", image: "/images/coastal-candle.avif" },
   { tone: "shell", title: "Handmade Ornament", note: "Personalization available", image: "" },
   { tone: "foam", title: "Giftable Soap Set", note: "Small-batch collection", image: "" },
 ]
